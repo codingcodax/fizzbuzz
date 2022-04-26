@@ -5,12 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "node .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^28.0.1"
   }
 }
