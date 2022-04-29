@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node .",
+    "server": "node ./lib/server.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest"
@@ -15,5 +16,8 @@
   "devDependencies": {
     "eslint": "^8.14.0",
     "jest": "^28.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
   }
 }
