@@ -26,4 +26,10 @@ describe("Unit test for ExplorerController class", () => {
 
         expect(fizzbuzzStatus).toBe("FIZZBUZZ");
     });
+
+    test("Fizzbuzz status full", () => {
+        const fizzbuzzStatusFull = ExplorerController.getFizzBuzzStatusFull(15);
+
+        expect(fizzbuzzStatusFull).toBe("Tu número es: 15. Validación: FIZZBUZZ");
+    });
 });
